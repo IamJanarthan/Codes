@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Day 11</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <script src="./script.js"></script>
+    <div class="navbar">
+        <div class="circle">
+            <span class="circle-text">e!</span>
+        </div>
+        <div class="auth-buttons">
+            <button class="login-button">Login</button>
+            <button class="create-account-button">Create Account</button>
+        </div>
+    </div>
+    <div class="container">
+        <h1>Breakfast places in Mumbai</h1>
+        <div class="filter-food-container">
+            <div class="filter-container">
+                <div class="filter-section">
+                    <h2>Filters</h2>
+                    <h3>Select Location</h3>
+                    <input type="text" list="location-list" name="location" placeholder="Filter by location">
+                    <datalist id="location-list">
+                        <option value="Mumbai">
+                        <option value="Delhi">
+                        <option value="Bangalore">
+                        
+                    </datalist>
+                </div>
+                <div class="filter-section">
+                    <h2>Cuisine</h2>
+                    <label>
+                        <input type="checkbox" name="food-type" value="North Indian">
+                        North Indian
+                    </label>
+                    <label>
+                        <input type="checkbox" name="food-type" value="South Indian">
+                        South Indian
+                    </label>
+                    <label>
+                        <input type="checkbox" name="food-type" value="Fast Food">
+                        Fast Food
+                    </label>
+                    <label>
+                        <input type="checkbox" name="food-type" value="Chinese">
+                        Chinese
+                    </label>
+                    <label>
+                        <input type="checkbox" name="food-type" value="Street Food">
+                        Street Food
+                    </label>
+                </div>
+                <div class="filter-section">
+                    <h2>Cost For Two</h2>
+                    <label>
+                        <input type="checkbox" name="price-range" value="Less than 500$">
+                        Less than 500$
+                    </label>
+                    <label>
+                        <input type="checkbox" name="price-range" value="500$ to 1000$">
+                        500$ to 1000$
+                    </label>
+                    <label>
+                        <input type="checkbox" name="price-range" value="1000$ to 1500$">
+                        1000$ to 1500$
+                    </label>
+                    <label>
+                        <input type="checkbox" name="price-range" value="1500$ to 2000$">
+                        1500$ to 2000$
+                    </label>
+                    <label>
+                        <input type="checkbox" name="price-range" value="2000$ +">
+                        2000$ +
+                    </label>
+                </div>
+                <div class="sort-section">
+                    <h2>Sort</h2>
+                    <label>
+                        <input type="radio" name="sort-price" value="asc">
+                        Price Low to High
+                    </label>
+                    <label>
+                        <input type="radio" name="sort-price" value="desc">
+                        Price High to Low
+                    </label>
+                </div>
+            </div>
+           <div class="food-details">
+                <div class="hotel-item"> 
+                </div>
+            </div>
+        </div>
+        <div class="pagination">
+            <button class="page-button">1</button>
+            <button class="page-button">2</button>
+            <button class="page-button">3</button>
+            <button class="page-button">4</button>
+            <button class="page-button">5</button>
+        </div>  
+    </div>
+</body>
+</html>

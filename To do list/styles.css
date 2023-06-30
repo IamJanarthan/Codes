@@ -1,0 +1,71 @@
+body {
+    background-image: url('https://wallpaperaccess.com/full/1393769.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+  }  
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .input-group {
+    margin-bottom: 10px;
+  }
+  
+  .list-group {
+    margin-bottom: 20px;
+  }
+  
+  .list-group-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .list-group-item .task-text {
+    flex-grow: 1;
+    margin-right: 10px;
+  }
+  
+  .list-group-item .task-buttons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .list-group-item .btn {
+    margin-right: 5px;
+  }
+  
+  .btn-delete {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+  }
+  
+  .btn-delete:hover {
+    background-color: #c82333;
+  }
+  
+  .btn-move {
+    background-color: #6c757d;
+    color: white;
+    border: none;
+  }
+  
+  .btn-move:hover {
+    background-color: #5a6268;
+  }
+  
+  .no-task-msg {
+    text-align: center;
+    font-style: italic;
+  }
+  
